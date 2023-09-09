@@ -1,0 +1,1 @@
+export { useGetPokemonByNameQuery, pokemonApi } from './pokemonApi';
