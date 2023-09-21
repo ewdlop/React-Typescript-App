@@ -3,7 +3,7 @@ import { HumanMessage, ChatMessage, SystemMessage } from "langchain/schema";
 
 const chat = new ChatOpenAI({
   temperature: 0,
-  azureOpenAIApiKey: "",
+  openAIApiKey: "",
 });
 
 const result = await chat.predictMessages([
